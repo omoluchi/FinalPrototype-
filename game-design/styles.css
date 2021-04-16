@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+:root {
+    --accent: #AE8FF0;
+    --accenthover: #8E63E9;
+    --dark: #000000;
+    --transition: all 0.3s ease 0s;
+}
+
+{
+    box-sizing: border-box;
+    margin: 30;
+    padding: 0;
+} 
+
+.staatliches_font {
+    color: var(--dark);
+    font-family: "Staatliches", cursive;
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-align: center
+}
+
+.staatliches_font2 {
+    color: var(--dark);
+    font-family: "Staatliches", cursive;
+    font-weight: 400;
+    font-size: 3.375rem;
+    text-align: center
+}
+
+
+.electrolize_font {
+    color: var(--dark);
+    font-family: "electrolize", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center
+}
+
+body {
+    padding-left: 120px;
+    padding-right: 120px;
+    background-image: url(images/Border\ L.png), url(images/Border\ R.png);
+    background-position: left, right;
+    background-repeat: no-repeat;
+    background-size: 100px 1500px;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--accent);
+    margin-top: 0px;
+    position: fixed;
+    top: 0px;
+    right: 96px;
+    left: 100px;
+    bottom: 650px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button_med {
+    border: none;
+    background-color: var(--accent);
+    padding: 8px 25px;
+    transition: var(--transition);
+    margin-right: 50px;
+}
+
+button {
+    border-style: none;
+    background-color: var(--accent);
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    width: 245px;
+    font: bold
+}
+
+button:hover {
+    background-color: var(--accenthover);
+}
+
